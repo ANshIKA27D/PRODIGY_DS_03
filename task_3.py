@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 #======================================================================================
 
-data = pd.read_csv(r"C:\Users\ANJALI DUBEY\Downloads\bank+marketing\bank-additional\bank-additional\bank-additional.csv", sep=';')
+data = pd.read_csv(r"bank-additional\bank-additional\bank-additional.csv", sep=';') #copy the path of the csv file
 print(data.head())
 print(data.info())
 
